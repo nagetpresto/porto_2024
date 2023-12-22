@@ -62,7 +62,7 @@ const Data = () => {
             Web Developer Enthusiast
         </h3>
         <p className="home__description">
-            Description sadsad sdasd sadasdasd.
+        Constantly seeking opportunities for learning and growth in crafting digital experiences. 
         </p>
         
         <Social/>
