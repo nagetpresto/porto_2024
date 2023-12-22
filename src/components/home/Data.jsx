@@ -2,7 +2,10 @@ import React from 'react'
 import ScrollDown from './ScrollDown'
 import Social from './Social'
 
-const Data = () => {
+const Data = ({activeNav, setActiveNav}) => {
+  const handleSetActiveNav = (val) => {
+    setActiveNav(val);
+  };
   return (
     <div className="home__data">
         <h1 className="home__title">
@@ -68,7 +71,7 @@ const Data = () => {
         <Social/>
                 
         <div className="home__tools">
-          <a href="#contact" className="button button--flex">
+          <a href="#contact" onClick={()=> handleSetActiveNav('#contact')} className="button button--flex">
               Say Hello
               <svg
                     class="button__icon"

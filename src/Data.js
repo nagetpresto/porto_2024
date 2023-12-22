@@ -53,4 +53,56 @@ const dataExperience = [
     }
 ]
 
-export { dataExperience };
+const dataAboutMe = [
+    {
+        "id": 1,
+        "icon": "award",
+        "title": "Experience",
+        "subtitle": "1+ Years Experience"
+    },
+    {
+        "id": 2,
+        "icon": "briefcase-alt",
+        "title": "Completed",
+        "subtitle": "3+ Projects"
+    },
+    {
+        "id": 3,
+        "icon": "map-pin",
+        "title": "Base",
+        "subtitle": "Jakarta"
+    }
+]
+
+const dataEducation = [
+    {
+        "id": 1,
+        "icon": "award",
+        "title": "Experience",
+        "subtitle": "1+ Years Experience",
+        "date": ""
+    },
+    {
+        "id": 2,
+        "icon": "award",
+        "title": "Experience",
+        "subtitle": "1+ Years Experience",
+        "date": ""
+    },
+    {
+        "id": 3,
+        "icon": "award",
+        "title": "Experience",
+        "subtitle": "1+ Years Experience",
+        "date": ""
+    },
+    {
+        "id": 4,
+        "icon": "award",
+        "title": "Experience",
+        "subtitle": "1+ Years Experience",
+        "date": ""
+    }
+]
+
+export { dataExperience, dataAboutMe, dataEducation };
