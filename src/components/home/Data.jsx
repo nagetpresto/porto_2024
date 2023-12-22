@@ -1,5 +1,6 @@
 import React from 'react'
 import ScrollDown from './ScrollDown'
+import Social from './Social'
 
 const Data = () => {
   return (
@@ -64,6 +65,8 @@ const Data = () => {
             Description sadsad sdasd sadasdasd.
         </p>
         
+        <Social/>
+                
         <div className="home__tools">
           <a href="#contact" className="button button--flex">
               Say Hello
