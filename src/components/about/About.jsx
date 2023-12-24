@@ -1,7 +1,7 @@
 import React from 'react'
 import "./About.css"
-import {Data, Education} from './Data'
-import { dataAboutMe, dataEducation} from '../../Data'
+import {Data} from './Data'
+import { dataAboutMe} from '../../Data'
 
 const About = () => {
   return (

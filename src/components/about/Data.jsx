@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Data = ({ id, icon, title, subtitle }) => {
+export const Data = ({ icon, title, subtitle }) => {
   return (
       <div className="about__box">
           <i className={"bx bx-"+ icon +"  about__icon"}></i>

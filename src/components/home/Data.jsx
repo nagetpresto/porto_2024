@@ -2,7 +2,7 @@ import React from 'react'
 import ScrollDown from './ScrollDown'
 import Social from './Social'
 
-const Data = ({activeNav, setActiveNav}) => {
+const Data = ({ setActiveNav}) => {
   const handleSetActiveNav = (val) => {
     setActiveNav(val);
   };

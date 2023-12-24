@@ -53,7 +53,7 @@ const Header = ({activeNav, setActiveNav}) => {
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href="#skills" onClick={()=> handleSetActiveNav('#skills')} 
+                            <a href="#skill" onClick={()=> handleSetActiveNav('#skills')} 
                             className={activeNav === "#skills" ? "nav__link active-link" : "nav__link"}>
                                 <i className="uil uil-file-alt nav__icon"></i>
                                 Skills
