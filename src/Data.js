@@ -105,4 +105,25 @@ const dataEducation = [
     }
 ]
 
-export { dataExperience, dataAboutMe, dataEducation };
+const dataSkill = [
+    {
+        "id": 1,
+        "title": "Frontend",
+        "name": ["HTML","CSS","Bootstrap","React Js","Nintex Form", "Javascript"],
+        "level": ["Intermediate","Intermediate","Skillfull", "Intermediate", "Intermediate"]
+    },
+    {
+        "id": 2,
+        "title": "Backend",
+        "name": ["Javascript", "Go", "C#", "VBA Macro", "Laravel", "SQL"],
+        "level": ["Intermediate","Skillfull","Skillfull", "Skillfull", "Beginner", "Intermediate"]
+    },
+    {
+        "id": 3,
+        "title": "Mechanical Engineering",
+        "name": ["Solidworks", "Arduino", "MATLAB"],
+        "level": ["Intermediate","Skillfull","Skillfull"]
+    },
+
+]
+export { dataExperience, dataAboutMe, dataEducation, dataSkill };

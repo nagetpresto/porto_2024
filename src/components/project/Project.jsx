@@ -10,6 +10,10 @@ const Project = () => {
 
         <div className="project__container container grid">
             <div className="project__content">
+                <p className="project__description">
+                    You can download my portofolio below.
+                </p>              
+
                 <a download="" href={Porto} className="button button--flex">
                     Download
                     <svg
