@@ -31,6 +31,7 @@ const Contact = () => {
                         <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                     </a>
                 </div>
+                
             </div>
         </div>
 

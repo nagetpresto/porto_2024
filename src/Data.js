@@ -110,7 +110,7 @@ const dataSkill = [
         "id": 1,
         "title": "Frontend",
         "name": ["HTML","CSS","Bootstrap","React Js","Nintex Form", "Javascript"],
-        "level": ["Intermediate","Intermediate","Skillfull", "Intermediate", "Intermediate"]
+        "level": ["Intermediate","Intermediate", "Intermediate", "Skillfull", "Skillful", "Intermediate"]
     },
     {
         "id": 2,
