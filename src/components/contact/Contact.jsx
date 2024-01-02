@@ -31,6 +31,26 @@ const Contact = () => {
                         <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                     </a>
                 </div>
+
+                <div className="contact__card">
+                    <i className="bx bxl-linkedin contact__card-icon"></i>
+                    <h3 className="contact__card-title">LinkedIn</h3>
+                    
+                    <a href="https://www.linkedin.com/in/bilqistaz/" rel="noreferrer" target='_blank' className="contact__button">
+                        Connect with me{" "}
+                        <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+                    </a>
+                </div>
+
+                <div className="contact__card">
+                    <i className="bx bxl-instagram contact__card-icon"></i>
+                    <h3 className="contact__card-title">Instagram</h3>
+                    
+                    <a href="https://www.instagram.com/bilqistaz/" rel="noreferrer" target='_blank' className="contact__button">
+                        Connect with me{" "}
+                        <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+                    </a>
+                </div>
                 
             </div>
         </div>
