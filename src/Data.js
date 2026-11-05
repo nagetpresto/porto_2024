@@ -3,53 +3,68 @@ const dataExperience = [
         "id": 1,
         "icon": "arrow",
         "company": "Sampoerna University",
-        "position": "Summer.Internship",
-        "year": "June 2022 - Aug 2020",
-        "description": "Campus Internship Program",
+        "position": "Bachelor.Mechanical Engineering",
+        "year": "2019 - 2023",
+        "description": "Scholarship fully funded by Putera Sampoerna Foundation. Dual-degree program with the University of Arizona. Honorable Mention FALL 2020. GPA: 3.42",
         "point": [
-            "Research focusing on designing an injection plastic machine", 
-            "Designing prototype using Solidworks 3D design software", 
-            "Utilizing knowledge from Dynamics of Machine for motion"
-         ]
+            "Mechanical engineering graduate turned developer"
+        ]
     },
     {
         "id": 2,
         "icon": "arrow",
-        "company": "Sampoerna University",
-        "position": "Project.Officer",
-        "year": "March 2022 - Dec 2022",
-        "description": "Campus Event",
+        "company": "Dumbways Indonesia",
+        "position": "Fullstack.Developer Bootcamp",
+        "year": "Jan 2023 - Mar 2023",
+        "description": "Fullstack developer bootcamp using Go and React.js",
         "point": [
-            "Utilizing FreeCAD 3D design software to create master designs for participant use", 
-            "Providing responsive support to participants and judges' inquiries across various communication channels", 
-            "Assisting a group of 8 participants in dedicated breakout rooms during 3D design sessions"
-         ]
+            "Built Waysbeans, an online shopping platform for coffee beans",
+            "Built Waysfood, an online food delivery service",
+            "RESTful APIs with Go and frontend with React.js"
+        ]
     },
     {
         "id": 3,
         "icon": "arrow",
-        "company": "PT Sungwoo Indonesia",
-        "position": "Quality.Control Staff",
-        "year": "March 2022 - Dec 2022",
-        "description": "An OEM Car Seatbelt Company",
+        "company": "PT Elistec Informatika Utama",
+        "position": "Software.Engineer (Client Projects)",
+        "year": "2023 - 2025",
+        "description": "Client projects: Sambu Group, Jawa Power, DAIKIN, Tugu Insurance, Jasa Raharja",
         "point": [
-            "Monitoring production line to ensure products adhered to standard drawings and met quality standards", 
-            "Designing jigs using Solidworks aimed at facilitating measurements, reducing cycle time, and minimizing errors in production processes", 
-            "Developing a data entry program using Visual Basic macros for admin quality control, facilitating efficient handling of reject products"
-         ]
+            "Jasa Raharja (2025): OCR worker for hospital invoices across 2,000+ templates, claim calculation per hospital terms, Excel analysis sent to the claim monitoring web app",
+            "Tugu Insurance (2025): React.js, Laravel, Postgres. Requirement gathering, DB schema, API planning, and premium calculation for 5 insurance products",
+            "DAIKIN (2024): Nintex payment request form with a 5-layer dynamic approval workflow, plus SAP integration with Power Automate",
+            "Jawa Power (2024 - 2025): Migrated legacy SharePoint 360 workflows to Nintex Automation Cloud, including 11 modules (Invoice, Timesheet, Leave, Business Travel)",
+            "Sambu Group (2023): Beacukai form with Nintex Forms replicating CEISA 4.0, with calculation logic and CEISA integration"
+        ]
     },
     {
         "id": 4,
         "icon": "arrow",
-        "company": "Elistec Informatika Utama",
-        "position": "Junior.Developer",
-        "year": "June 2023 - Present",
-        "description": "ERP project utilizing Sharepoint, Nintex, Javascript, .NET Framework with C#",
+        "company": "PT Elistec Informatika Utama",
+        "position": "Software.Engineer (Proofs of Concept)",
+        "year": "2025 - 2026",
+        "description": "Proofs of concept built for prospective clients",
         "point": [
-                    "Developing Beacukai Form and applying API integration to CEISA 4.0", 
-                    "Developing a task scheduler for API data retrieval catering to form requirements", 
-                    "Developing Approval System using Nintex Workflow"
-                 ]
+            "Bank Statement Analysis, Fraud Detection (2026): Backend, scan logic, and React views. Flags suspicious patterns across 8 fraud categories",
+            "BNI Life Insurance (2025): Form Builder web app and backend APIs for the dynamic forms of a React Native mobile app",
+            "BPJS Ketenagakerjaan (2025): Hospital invoice claim analysis for 1,000 invoices from 2 hospitals, set up as a separate tenant"
+        ]
+    },
+    {
+        "id": 5,
+        "icon": "arrow",
+        "company": "PT Elistec Informatika Utama",
+        "position": "Software.Engineer (Backend)",
+        "year": "June 2023 - Present",
+        "description": "Backend systems and workflow automation. Currently leading the backend of a multi-tenant document extraction platform (OCR + LLM)",
+        "point": [
+            "ProSnap Lite (Nov 2025 - Present): Lead backend developer. REST API (JWT/Google auth, RBAC, API keys), database-per-tenant, and RabbitMQ workers with retry, callbacks, quotas, and SignalR/Firebase notifications",
+            "Moved long-running jobs out of the API into standalone workers, reducing API load. Led the layered API refactor and the .NET 10 upgrade",
+            "Built ProSplit, ProMatch, ProDraft, and Export Automation. Integrated local OCR (RapidOCR) and a self-hosted LLM",
+            "HR Portal, Filter CV (Oct 2026 - Present): Backend for CV filtering and candidate matching, with AI scoring and CV search using a local LLM and embeddings",
+            "Ran flow and feature sessions with the design team and assigned tasks to frontend and mobile developers"
+        ]
     }
 ]
 
@@ -58,19 +73,19 @@ const dataAboutMe = [
         "id": 1,
         "icon": "award",
         "title": "Experience",
-        "subtitle": "1+ Years Experience"
+        "subtitle": "3+ Years Experience"
     },
     {
         "id": 2,
         "icon": "briefcase-alt",
         "title": "Completed",
-        "subtitle": "3+ Projects"
+        "subtitle": "10+ Projects"
     },
     {
         "id": 3,
         "icon": "map-pin",
         "title": "Base",
-        "subtitle": "Jakarta"
+        "subtitle": "Jakarta Selatan"
     }
 ]
 
@@ -108,22 +123,45 @@ const dataEducation = [
 const dataSkill = [
     {
         "id": 1,
-        "title": "Frontend",
-        "name": ["HTML","CSS","Bootstrap","React Js","Nintex Form", "Javascript"],
-        "level": ["Intermediate","Intermediate", "Intermediate", "Skillfull", "Skillful", "Intermediate"]
+        "title": "Backend",
+        "name": ["C# & .NET (ASP.NET Core)", "Go", "PHP (Laravel)", "Python (FastAPI)"],
+        "level": ["", "", "", ""]
     },
     {
         "id": 2,
-        "title": "Backend",
-        "name": ["Javascript", "Go", "C#", "VBA Macro", "Laravel", "SQL"],
-        "level": ["Intermediate","Skillfull","Skillfull", "Skillfull", "Beginner", "Intermediate"]
+        "title": "Frontend",
+        "name": ["React.js", "React Native", "Blazor", "JavaScript", "HTML & CSS", "Bootstrap"],
+        "level": ["", "", "", "", "", ""]
     },
     {
         "id": 3,
-        "title": "Mechanical Engineering",
-        "name": ["Solidworks", "Arduino", "MATLAB"],
-        "level": ["Intermediate","Skillfull","Skillfull"]
+        "title": "Database",
+        "name": ["PostgreSQL (pgvector)", "SQL Server", "MySQL", "Qdrant"],
+        "level": ["", "", "", ""]
     },
-
+    {
+        "id": 4,
+        "title": "Messaging & DevOps",
+        "name": ["RabbitMQ", "SignalR", "Docker", "Git (GitHub, Bitbucket)"],
+        "level": ["", "", "", ""]
+    },
+    {
+        "id": 5,
+        "title": "Low-code & Automation",
+        "name": ["Nintex Automation Cloud", "Power Automate", "SharePoint"],
+        "level": ["", "", ""]
+    },
+    {
+        "id": 6,
+        "title": "AI",
+        "name": ["OCR (RapidOCR, Azure, Google Vision, Tesseract)", "LLM (OpenAI & local)", "Embeddings & RAG"],
+        "level": ["", "", ""]
+    },
+    {
+        "id": 7,
+        "title": "Practices",
+        "name": ["RESTful API design", "Backend architecture", "Multi-tenancy"],
+        "level": ["", "", ""]
+    }
 ]
 export { dataExperience, dataAboutMe, dataEducation, dataSkill };

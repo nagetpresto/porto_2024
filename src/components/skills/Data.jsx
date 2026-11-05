@@ -15,7 +15,7 @@ export const Data = ({ id, title, name, level }) => {
 
                                 <div>
                                     <h3 className="skill__name">{data}</h3>
-                                    <span className="skill__level">{level[i]}</span>
+                                    {level[i] && <span className="skill__level">{level[i]}</span>}
                                 </div>
                             </div>    
                                             

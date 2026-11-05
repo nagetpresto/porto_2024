@@ -26,7 +26,7 @@ const Contact = () => {
                     <i className="bx bxl-whatsapp contact__card-icon"></i>
                     <h3 className="contact__card-title">Whatsapp</h3>
                     
-                    <a href="https://wa.me/6283832625647" rel="noreferrer" target='_blank' className="contact__button">
+                    <a href="https://wa.me/6285716006916" rel="noreferrer" target='_blank' className="contact__button">
                         Write me{" "}
                         <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                     </a>
@@ -36,7 +36,7 @@ const Contact = () => {
                     <i className="bx bxl-linkedin contact__card-icon"></i>
                     <h3 className="contact__card-title">LinkedIn</h3>
                     
-                    <a href="https://www.linkedin.com/in/bilqistaz/" rel="noreferrer" target='_blank' className="contact__button">
+                    <a href="https://www.linkedin.com/in/bilqist-imeilia-az-zahra-664412440/" rel="noreferrer" target='_blank' className="contact__button">
                         Connect with me{" "}
                         <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                     </a>

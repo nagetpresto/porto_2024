@@ -38,8 +38,7 @@ const About = () => {
               </div>
               
               <p className="about__description">
-                A recent graduate venturing into the development field. I began my career in June 2023 as a Junior Developer proficient in Nintex, JavaScript, and .NET Framework with C# 
-                -- actively involved in developing ERP projects.
+                Software Engineer with 3+ years of experience building backend systems and workflow automation across various industries. Mechanical engineering graduate turned developer, currently working on a multi-tenant document extraction platform (OCR and LLM) built with ASP.NET Core, PostgreSQL, and RabbitMQ. Experienced in turning business requirements into technical designs and coordinating tasks with design, frontend, and mobile teams.
               </p>
             </div>
         </div>
