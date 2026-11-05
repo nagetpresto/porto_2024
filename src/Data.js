@@ -2,44 +2,132 @@ const dataExperience = [
     {
         "id": 1,
         "icon": "arrow",
-        "company": "PT Elistec Informatika Utama",
-        "position": "Software.Engineer (Client Projects)",
-        "year": "2023 - 2025",
-        "description": "Client projects: Sambu Group, Jawa Power, DAIKIN, Tugu Insurance, Jasa Raharja",
+        "company": "Elistec · Developer",
+        "position": "Sambu Group.Beacukai Form",
+        "year": "2023",
+        "description": "Custom web form built with Nintex Forms that replicates CEISA 4.0, the Indonesian customs system, so users can submit customs data straight from the company's ERP.",
         "point": [
-            "Jasa Raharja (2025): OCR worker for hospital invoices across 2,000+ templates, claim calculation per hospital terms, Excel analysis sent to the claim monitoring web app",
-            "Tugu Insurance (2025): React.js, Laravel, Postgres. Requirement gathering, DB schema, API planning, and premium calculation for 5 insurance products",
-            "DAIKIN (2024): Nintex payment request form with a 5-layer dynamic approval workflow, plus SAP integration with Power Automate",
-            "Jawa Power (2024 - 2025): Migrated legacy SharePoint 360 workflows to Nintex Automation Cloud, including 11 modules (Invoice, Timesheet, Leave, Business Travel)",
-            "Sambu Group (2023): Beacukai form with Nintex Forms replicating CEISA 4.0, with calculation logic and CEISA integration"
+            "Developed the calculation logic to match CEISA 4.0",
+            "Implemented the integration that submits data to CEISA",
+            "Supported UAT with end users"
         ]
     },
     {
         "id": 2,
         "icon": "arrow",
-        "company": "PT Elistec Informatika Utama",
-        "position": "Software.Engineer (Proofs of Concept)",
-        "year": "2025 - 2026",
-        "description": "Proofs of concept built for prospective clients",
+        "company": "Elistec · Workflow Developer",
+        "position": "DAIKIN.Payment Approval",
+        "year": "2024",
+        "description": "Payment request approval on Nintex Automation Cloud, integrated with SAP.",
         "point": [
-            "Bank Statement Analysis, Fraud Detection (2026): Backend, scan logic, and React views. Flags suspicious patterns across 8 fraud categories",
-            "BNI Life Insurance (2025): Form Builder web app and backend APIs for the dynamic forms of a React Native mobile app",
-            "BPJS Ketenagakerjaan (2025): Hospital invoice claim analysis for 1,000 invoices from 2 hospitals, set up as a separate tenant"
+            "Built the forms and a 5-layer approval workflow",
+            "Layers are dynamic by transaction category and amount, and include external users",
+            "Automated SAP-to-DB and DB-to-SAP data transfer with Power Automate"
         ]
     },
     {
         "id": 3,
         "icon": "arrow",
-        "company": "PT Elistec Informatika Utama",
-        "position": "Software.Engineer (Backend)",
-        "year": "June 2023 - Present",
-        "description": "Backend systems and workflow automation. Currently leading the backend of a multi-tenant document extraction platform (OCR + LLM)",
+        "company": "Elistec · Workflow Developer",
+        "position": "Jawa Power.Workflow Migration",
+        "year": "2024 - 2025",
+        "description": "Migration of legacy SharePoint 360 workflows to Nintex Automation Cloud.",
         "point": [
-            "ProSnap Lite (Nov 2025 - Present): Lead backend developer. REST API (JWT/Google auth, RBAC, API keys), database-per-tenant, and RabbitMQ workers with retry, callbacks, quotas, and SignalR/Firebase notifications",
-            "Moved long-running jobs out of the API into standalone workers, reducing API load. Led the layered API refactor and the .NET 10 upgrade",
-            "Built ProSplit, ProMatch, ProDraft, and Export Automation. Integrated local OCR (RapidOCR) and a self-hosted LLM",
-            "HR Portal, Filter CV (Oct 2026 - Present): Backend for CV filtering and candidate matching, with AI scoring and CV search using a local LLM and embeddings",
+            "2024: refactored workflows and automated scheduled emails with Power Automate",
+            "2025: built the forms and readjusted the workflow logic for 11 modules, including Invoice, Timesheet, Leave, and Business Travel"
+        ]
+    },
+    {
+        "id": 4,
+        "icon": "arrow",
+        "company": "Elistec · Backend Developer",
+        "position": "Jasa Raharja.Invoice Claim Analysis",
+        "year": "2025",
+        "description": "Intelligent Document Processing (IDP) that reads hospital invoices to analyze insurance claims.",
+        "point": [
+            "Implemented the worker that scans invoices with OCR across 2,000+ hospital invoice templates",
+            "Fixed the claim calculation logic for every transaction to follow the hospital's terms, producing the claimable amount",
+            "Generated the analysis as an Excel file and sent it to the web app users use to monitor claim status"
+        ]
+    },
+    {
+        "id": 5,
+        "icon": "arrow",
+        "company": "Elistec · Backend Developer",
+        "position": "Tugu Insurance.Insurance Platform",
+        "year": "2025",
+        "description": "Web-based insurance system built with React.js, Laravel, and Postgres.",
+        "point": [
+            "Took part in requirement gathering, database schema design, and API planning",
+            "Divided tasks among the development team",
+            "Set up the Laravel backend starter project",
+            "Implemented the premium calculation for 5 products: TCar, TRide, Travella, THome, and TStore"
+        ]
+    },
+    {
+        "id": 6,
+        "icon": "arrow",
+        "company": "Elistec · Backend Developer",
+        "position": "BNI Life.Insurance Mobile App (PoC)",
+        "year": "2025",
+        "description": "Proof of concept for an insurance mobile app built with React Native, Laravel, and Postgres.",
+        "point": [
+            "Built a low-code-style Form Builder web app with various field types",
+            "The forms it creates are shown dynamically in the mobile app",
+            "Built the backend APIs the mobile app uses"
+        ]
+    },
+    {
+        "id": 7,
+        "icon": "arrow",
+        "company": "Elistec · Backend Developer",
+        "position": "BPJS Ketenagakerjaan.Invoice Claim Analysis (PoC)",
+        "year": "2025",
+        "description": "Proof of concept of the Jasa Raharja claim analysis solution, set up as a separate tenant.",
+        "point": [
+            "Implemented the OCR worker and claim calculation per hospital terms for 1,000 invoices from 2 hospitals",
+            "Sent the Excel analysis to the external monitoring web app"
+        ]
+    },
+    {
+        "id": 8,
+        "icon": "arrow",
+        "company": "Elistec · Lead Backend Developer",
+        "position": "ProSnap Lite.Document Extraction Platform",
+        "year": "Nov 2025 - Present",
+        "description": "Multi-tenant platform that turns documents into structured data using OCR and LLM, with a web portal and a mobile app.",
+        "point": [
+            "Built the REST API: JWT/Google auth, role-based access, API keys, and a database-per-tenant architecture",
+            "Moved long-running jobs (scan, export, ProDraft, ProMatch) into standalone RabbitMQ workers with callbacks, retry, quotas, and real-time notifications (SignalR, Firebase). This reduced the API load, and the API has not gone down since",
+            "Built ProSplit (splits a bundled PDF by document type), ProMatch (cross-document matching), ProDraft (auto-fills Word templates), and Export Automation",
+            "Integrated local OCR (RapidOCR) and a self-hosted LLM as alternatives to cloud providers",
+            "Led the API refactor into enforced layers and the .NET 10 upgrade, and wrote the architecture documentation",
             "Ran flow and feature sessions with the design team and assigned tasks to frontend and mobile developers"
+        ]
+    },
+    {
+        "id": 9,
+        "icon": "arrow",
+        "company": "Elistec · Backend & Frontend",
+        "position": "Bank Statement.Fraud Detection (PoC)",
+        "year": "2026",
+        "description": "Proof of concept that detects suspicious activity from bank statements.",
+        "point": [
+            "Developed the backend and scan logic, reusing the ProSnap engine to extract transactions and group credit and debit",
+            "Flags suspicious patterns across 8 fraud categories, such as weekend or holiday transactions, rapid in-out transactions, duplicate invoices, and balance mismatches",
+            "Built the React frontend views for fraud categories and transaction details"
+        ]
+    },
+    {
+        "id": 10,
+        "icon": "arrow",
+        "company": "Elistec · Backend Developer",
+        "position": "HR Portal.Filter CV",
+        "year": "Oct 2026 - Present",
+        "description": "Internal recruitment platform (in development) for filtering CVs and matching candidates to job postings.",
+        "point": [
+            "Building the backend: architecture, database schema, and API, with CV data extracted through ProSnap",
+            "Implementing AI-based candidate scoring and CV search using a local LLM and embeddings"
         ]
     }
 ]
