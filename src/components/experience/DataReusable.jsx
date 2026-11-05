@@ -28,6 +28,7 @@ export const DataReusable = ({ id, icon, company, position, year, description, p
         <div className={toggle === 1 ? "experience__modal active-modal" :"experience__modal"}>
             <div className="experience__modal-content">
                 <i className="uil uil-times experience__modal-close" onClick={()=> toggleTab(0)}></i>
+                <div className="experience__modal-body">
                 <h3 className="experience__modal-title">{position.replace('.',' ')}</h3>
                 <p className="experience__modal-description">{description}</p>
 
@@ -43,6 +44,7 @@ export const DataReusable = ({ id, icon, company, position, year, description, p
                         })
                     }
                 </ul>
+                </div>
 
             </div>
         </div>
