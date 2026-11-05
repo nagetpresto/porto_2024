@@ -2,30 +2,6 @@ const dataExperience = [
     {
         "id": 1,
         "icon": "arrow",
-        "company": "Sampoerna University",
-        "position": "Bachelor.Mechanical Engineering",
-        "year": "2019 - 2023",
-        "description": "Scholarship fully funded by Putera Sampoerna Foundation. Dual-degree program with the University of Arizona. Honorable Mention FALL 2020. GPA: 3.42",
-        "point": [
-            "Mechanical engineering graduate turned developer"
-        ]
-    },
-    {
-        "id": 2,
-        "icon": "arrow",
-        "company": "Dumbways Indonesia",
-        "position": "Fullstack.Developer Bootcamp",
-        "year": "Jan 2023 - Mar 2023",
-        "description": "Fullstack developer bootcamp using Go and React.js",
-        "point": [
-            "Built Waysbeans, an online shopping platform for coffee beans",
-            "Built Waysfood, an online food delivery service",
-            "RESTful APIs with Go and frontend with React.js"
-        ]
-    },
-    {
-        "id": 3,
-        "icon": "arrow",
         "company": "PT Elistec Informatika Utama",
         "position": "Software.Engineer (Client Projects)",
         "year": "2023 - 2025",
@@ -39,7 +15,7 @@ const dataExperience = [
         ]
     },
     {
-        "id": 4,
+        "id": 2,
         "icon": "arrow",
         "company": "PT Elistec Informatika Utama",
         "position": "Software.Engineer (Proofs of Concept)",
@@ -52,7 +28,7 @@ const dataExperience = [
         ]
     },
     {
-        "id": 5,
+        "id": 3,
         "icon": "arrow",
         "company": "PT Elistec Informatika Utama",
         "position": "Software.Engineer (Backend)",
@@ -92,31 +68,32 @@ const dataAboutMe = [
 const dataEducation = [
     {
         "id": 1,
-        "icon": "award",
-        "title": "Experience",
-        "subtitle": "1+ Years Experience",
-        "date": ""
-    },
+        "icon": "arrow",
+        "company": "Sampoerna University",
+        "position": "Bachelor.Mechanical Engineering",
+        "year": "2019 - 2023",
+        "description": "Scholarship program fully funded by Putera Sampoerna Foundation",
+        "point": [
+            "Dual-degree program partnership with the University of Arizona",
+            "Honorable Mention FALL 2020",
+            "GPA: 3.42"
+        ]
+    }
+]
+
+const dataTraining = [
     {
-        "id": 2,
-        "icon": "award",
-        "title": "Experience",
-        "subtitle": "1+ Years Experience",
-        "date": ""
-    },
-    {
-        "id": 3,
-        "icon": "award",
-        "title": "Experience",
-        "subtitle": "1+ Years Experience",
-        "date": ""
-    },
-    {
-        "id": 4,
-        "icon": "award",
-        "title": "Experience",
-        "subtitle": "1+ Years Experience",
-        "date": ""
+        "id": 1,
+        "icon": "arrow",
+        "company": "Dumbways Indonesia",
+        "position": "Fullstack.Developer Bootcamp",
+        "year": "Jan 2023 - Mar 2023",
+        "description": "Fullstack developer bootcamp using Go and React.js",
+        "point": [
+            "Built Waysbeans, an online shopping platform for coffee beans",
+            "Built Waysfood, an online food delivery service",
+            "RESTful APIs with Go and frontend with React.js"
+        ]
     }
 ]
 
@@ -164,4 +141,4 @@ const dataSkill = [
         "level": ["", "", ""]
     }
 ]
-export { dataExperience, dataAboutMe, dataEducation, dataSkill };
+export { dataExperience, dataAboutMe, dataEducation, dataTraining, dataSkill };

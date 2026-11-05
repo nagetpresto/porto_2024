@@ -62,10 +62,10 @@ const Data = ({ setActiveNav}) => {
         </h1>
 
         <h3 className="home__subtitle">
-            Software Engineer (Backend)
+            Web Developer Enthusiast
         </h3>
         <p className="home__description">
-        Building backend systems and workflow automation, from OCR and LLM document extraction to multi-tenant APIs.
+        Constantly seeking opportunities for learning and growth in crafting digital experiences. 
         </p>
         
         <Social/>

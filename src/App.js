@@ -7,6 +7,8 @@ import Contact from './components/contact/Contact';
 import { useState } from 'react';
 import Project from './components/project/Project';
 import Skill from './components/skills/Skill';
+import Education from './components/education/Education';
+import Training from './components/training/Training';
 
 function App() {
   const [activeNav, setActiveNav] = useState("#home");
@@ -18,6 +20,8 @@ function App() {
       <Home  activeNav={activeNav} setActiveNav={setActiveNav}/>
       <About/>
       <Experience/>
+      <Education/>
+      <Training/>
       <Project/>
       <Skill/>
       <Contact/>
